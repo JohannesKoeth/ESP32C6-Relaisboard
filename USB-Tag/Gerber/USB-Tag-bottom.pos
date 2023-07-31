@@ -1,0 +1,7 @@
+### Module positions - created on Wed Jul  5 14:15:45 2023 ###
+### Printed by Pcbnew version (6.0.10)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                   Package                             PosX       PosY       Rot  Side
+TagCon    838-22-006-10-001101  HDRV6W56P200_2X3_600X400X749P  -145.2000   -86.1000  180.0000  bottom
+## End

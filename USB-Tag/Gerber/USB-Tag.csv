@@ -1,0 +1,20 @@
+﻿Comment, Designator, Footprint, LCSC Part Number
+838-22-006-10-001101, 1111, SixPinTH:HDRV6W56P200_2X3_600X400X749P, 
+100nF, C1, Capacitor_SMD:C_0402_1005Metric, C1525
+100nF, C2, Capacitor_SMD:C_0402_1005Metric, C1525
+10uF, C3, Capacitor_SMD:C_0402_1005Metric, C15525
+10uF, C4, Capacitor_SMD:C_0402_1005Metric, C15525
+100nF, C5, Capacitor_SMD:C_0402_1005Metric, C1525
+1N5819, D1, Diode_SMD:D_SOD-323, C191023
+1N5819, D2, Diode_SMD:D_SOD-323, C191023
+MountingHole_Pad, H1, MountingHole:MountingHole_3.5mm_Pad_Via, 
+MountingHole_Pad, H2, MountingHole:MountingHole_3.5mm_Pad_Via, 
+TYPEC31, J1, USB-C-5A:HRO_TYPE-C-31-M-12, C165948
+SolderJumper_2_Bridged, JP1, Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm, 
+5k1, R1, Resistor_SMD:R_0402_1005Metric, C105872
+5k1, R2, Resistor_SMD:R_0402_1005Metric, C105872
+47.5k, R3, Resistor_SMD:R_0402_1005Metric, C25896
+22.1k, R4, Resistor_SMD:R_0402_1005Metric, C43473
+Reset, SW1, Button_Switch_THT:SW_PUSH_6mm, 
+Boot, SW2, Button_Switch_THT:SW_PUSH_6mm, 
+SPX3819M5-L-3-3, U1, Package_TO_SOT_SMD:SOT-23-5, C9055

@@ -1,0 +1,5 @@
+#ignore Backup files
+*-backups/
+*.url
+*-back
+*cache*

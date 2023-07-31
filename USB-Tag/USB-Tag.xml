@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Johannes\Google Drive\Elektronikprojekte\SprinklerBoardESP32V3\USB-Tag\USB-Tag.kicad_sch</source>
+    <date>05.07.2023 14:16:39</date>
+    <tool>Eeschema (6.0.10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ConnectotBoard</title>
+        <company/>
+        <rev>V1.0</rev>
+        <date/>
+        <source>USB-Tag.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="1111">
+      <value>838-22-006-10-001101</value>
+      <footprint>SixPinTH:HDRV6W56P200_2X3_600X400X749P</footprint>
+      <fields>
+        <field name="Datasheet_1">https://www.mill-max.com/products/datasheet/sockets/838-22-006-10-001101</field>
+        <field name="Footprint_1">HDRV6W56P200_2X3_600X400X749P</field>
+        <field name="Height">7.49</field>
+        <field name="Manufacturer_Name">Mill-Max</field>
+        <field name="Manufacturer_Part_Number">838-22-006-10-001101</field>
+        <field name="Mouser Part Number">575-8382200610001101</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Mill-Max/838-22-006-10-001101?qs=rcV84j27mGu7T787UZaaSA%3D%3D</field>
+        <field name="Reference_1">J</field>
+        <field name="Value_1">838-22-006-10-001101</field>
+      </fields>
+      <libsource lib="838-22-006-10-001101" part="838-22-006-10-001101" description="Headers &amp; Wire Housings 2mm Pitch, Dbl Row Thru-Hole SLC"/>
+      <property name="Reference_1" value="J"/>
+      <property name="Value_1" value="838-22-006-10-001101"/>
+      <property name="Footprint_1" value="HDRV6W56P200_2X3_600X400X749P"/>
+      <property name="Datasheet_1" value="https://www.mill-max.com/products/datasheet/sockets/838-22-006-10-001101"/>
+      <property name="Height" value="7.49"/>
+      <property name="Mouser Part Number" value="575-8382200610001101"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Mill-Max/838-22-006-10-001101?qs=rcV84j27mGu7T787UZaaSA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Mill-Max"/>
+      <property name="Manufacturer_Part_Number" value="838-22-006-10-001101"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77779306-55ac-4398-9d98-245e9096122e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>661938fb-f449-4d91-90c9-ded1d5ecdb0d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>028e8870-5a0a-4737-9b68-07f8f5cb5f19</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f3f936f-b0bf-4324-975a-3ebf4a702482</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>382fefe2-19fe-458b-81f4-03def0761573</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a5fe3b-3937-4c88-811c-022dd92b62ba</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C191023</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="LCSC Part #" value="C191023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2a3c9c9-d4b6-492b-bf90-9728d9107667</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C191023</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="LCSC Part #" value="C191023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f03aca0d-181d-45f9-b27b-1b37a12fa817</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b113805-e06d-42f6-b769-656beca4f0e3</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c45e1322-e99c-4fb8-8abe-61d4b8915408</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>USB-C-5A:HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="LCSC Part #">C165948</field>
+        <field name="MANUFACTURER">HRO Electronics Co., Ltd.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.26 mm</field>
+        <field name="PARTREV">2020.12.08</field>
+        <field name="SNAPEDA_PN">TYPE-C-31-M-12</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12" description=""/>
+      <property name="PARTREV" value="2020.12.08"/>
+      <property name="MANUFACTURER" value="HRO Electronics Co., Ltd."/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.26 mm"/>
+      <property name="SNAPEDA_PN" value="TYPE-C-31-M-12"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="LCSC Part #" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9f86697-4e52-42d9-88af-b701253fc910</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e45883bf-53e2-4c48-b689-b14a8493663b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C105872</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="LCSC Part #" value="C105872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aecf8048-98f5-4b4e-abc8-6bb387f8206a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C105872</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="LCSC Part #" value="C105872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5703427-5200-4b60-809c-9438b6ccea7e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>47.5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25896</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25896"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee1024fa-fd4e-4a8c-8816-5fe63fd3cc5c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C43473</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C43473"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be4c7b21-2abf-46c2-8261-21cbe3f86366</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30e4d311-7dd2-40d1-b5c4-6d0e4f80dca0</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Boot</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27d2eae8-7577-400d-a5c6-d5dac769dc0b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SPX3819M5-L-3-3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</datasheet>
+      <fields>
+        <field name="LCSC Part #">C9055</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="SPX3819M5-L-3-3" description="500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="LCSC Part #" value="C9055"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USB-Tag.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b45f8c7b-f382-43c6-9882-64c4d6a979bd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="838-22-006-10-001101" part="838-22-006-10-001101">
+      <description>Headers &amp; Wire Housings 2mm Pitch, Dbl Row Thru-Hole SLC</description>
+      <fields>
+        <field name="Value">838-22-006-10-001101</field>
+        <field name="Reference_1">J</field>
+        <field name="Value_1">838-22-006-10-001101</field>
+        <field name="Footprint_1">HDRV6W56P200_2X3_600X400X749P</field>
+        <field name="Datasheet_1">https://www.mill-max.com/products/datasheet/sockets/838-22-006-10-001101</field>
+        <field name="Height">7.49</field>
+        <field name="Mouser Part Number">575-8382200610001101</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Mill-Max/838-22-006-10-001101?qs=rcV84j27mGu7T787UZaaSA%3D%3D</field>
+        <field name="Manufacturer_Name">Mill-Max</field>
+        <field name="Manufacturer_Part_Number">838-22-006-10-001101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX3819M5-L-3-3">
+      <description>500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX3819M5-L-3-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C-31-M-12</field>
+        <field name="Footprint">HRO_TYPE-C-31-M-12</field>
+        <field name="PARTREV">2020.12.08</field>
+        <field name="MANUFACTURER">HRO Electronics Co., Ltd.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.26 mm</field>
+        <field name="SNAPEDA_PN">TYPE-C-31-M-12</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="838-22-006-10-001101">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/MillMaxTagConn/SixPinTH/838-22-006-10-001101.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TYPE-C-31-M-12">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/USB-C-5A/TYPE-C-31-M-12.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="1111" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="2" name="CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Chip_EN">
+      <node ref="1111" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="1111" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D-">
+      <node ref="1111" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="1111" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="GPIO9">
+      <node ref="1111" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="11" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="BP" pintype="input"/>
+    </net>
+    <net code="13" name="VBUS">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="14" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J1-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-PadS2)">
+      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J1-PadS3)">
+      <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-PadS4)">
+      <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

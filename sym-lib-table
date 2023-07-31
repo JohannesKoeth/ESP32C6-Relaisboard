@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "BikeGPS-rescue")(type "Legacy")(uri "C:/Users/Johannes/Google Drive/BikeGPS/BikeGPS Mainboard/BikeGPS-rescue.lib")(options "")(descr ""))
+  (lib (name "epaperCon-eagle-import")(type "Legacy")(uri "C:/Users/Johannes/Projekte/Solidworks/HMI/epaperCon/epaperCon-eagle-import.lib")(options "")(descr ""))
+  (lib (name "Sprinkler_Vers_2.5_routed-eagle-import")(type "KiCad")(uri "C:/Users/Johannes/Desktop/Sprinkler/test/Sprinkler_Vers_2.5_routed-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "digikey_DCDC")(type "Legacy")(uri "${KIPRJMOD}/library/digikey/digikey-symbols/dk_DC-DC-Converters.lib")(options "")(descr ""))
+)

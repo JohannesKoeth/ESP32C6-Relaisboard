@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Johannes\Google Drive\Elektronikprojekte\SprinklerBoardESP32V3\SprinklerBoardESP32V3.kicad_sch</source>
+    <date>07.07.2023 16:58:54</date>
+    <tool>Eeschema (6.0.10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SprinklerESP32C6</title>
+        <company/>
+        <rev>V3.0</rev>
+        <date>2022-06-29</date>
+        <source>SprinklerBoardESP32V3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IO.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+        <field name="LCSC Part#">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part#" value="C15525"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ee2f7b9-b062-43e2-860e-6bd008e81e8f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f85e068d-31fb-4b2d-88bb-0dbd7ced71e0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d20071d9-e060-40e6-bcd1-6b810cc15462</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6decc48e-3a7a-474c-a57a-19a5bca14c57</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8706bd6-d794-4259-94a8-608805d196a0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c5840f3-9d0b-49c9-98ba-c40b509ccbc8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C167339</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part#" value=""/>
+      <property name="LCSC Part #" value="C167339"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae77b0cb-8230-490f-8161-fc9d84649e6e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c06fede-2028-4987-8390-7ab4bd1f3785</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060489bfd</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e238d36c-034c-42a9-8610-3022457abd57</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1be9a0c0-7069-467c-be01-6c7a2b96969f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ca6d119-3539-4360-b706-93c3b3555ffb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eba9872-578e-40d3-8487-34517a386d87</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>313f4915-3c21-4bb6-87b0-e24fc191230c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C191023</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="LCSC Part #" value="C191023"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb9672a3-3abc-4e92-9403-fcc48634e4b2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SMAJ36CA-13-F</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC Part #">C10757</field>
+      </fields>
+      <libsource lib="Sprinkler_Vers_2.5_routed-eagle-import" part="SMAJ36CA-13-F" description=""/>
+      <property name="LCSC Part #" value="C10757"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7519755f-c24c-44e3-ac3c-59e076da48ac</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_red</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C434449</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC Part #" value="C434449"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006080f18f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>MB10S</value>
+      <footprint>MB10S:SOIC245P670X290-4N</footprint>
+      <datasheet>C2488</datasheet>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="DESCRIPTION">MB10S Series 0.5 A 1000 V Low Leakage SMT Bridge Rectifier - SOIC-4</field>
+        <field name="LCSC Part #">C2488</field>
+        <field name="MF">ON Semiconductor</field>
+        <field name="MP">MB10S</field>
+        <field name="PACKAGE">SOIC-4 ON Semiconductor</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="MB10S" part="MB10S" description=""/>
+      <property name="MF" value="ON Semiconductor"/>
+      <property name="DESCRIPTION" value="MB10S Series 0.5 A 1000 V Low Leakage SMT Bridge Rectifier - SOIC-4"/>
+      <property name="PACKAGE" value="SOIC-4 ON Semiconductor"/>
+      <property name="MP" value="MB10S"/>
+      <property name="PRICE" value="None"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="LCSC Part #" value="C2488"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55f24702-baa9-48bb-adaf-59cf5d25a27b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de196656-b1eb-4408-9ab2-cf7f11cf205e</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a95985e1-709a-4dea-b84c-e17e6f721bd1</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0813490-a64b-4f87-8d42-00833a78de66</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2fed33e-b325-48a3-9fe3-da184cf0ccf3</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP32-C6-WROOM-1-N8</value>
+      <footprint>ESP32-C6:ESP32C6WROOM1N8</footprint>
+      <fields>
+        <field name="Datasheet_1">https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf</field>
+        <field name="Footprint_1">ESP32C6WROOM1N8</field>
+        <field name="Height">3.25</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-C6-WROOM-1-N8</field>
+        <field name="Mouser Part Number">356-ESP32C6WROOM1N8</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">ESP32-C6-WROOM-1-N8</field>
+      </fields>
+      <libsource lib="ESP32-C6-WROOM-1-N8" part="ESP32-C6-WROOM-1-N8" description="802.15.4, Bluetooth, WiFi Bluetooth v5.0, Zigbee Transceiver Module 2.4GHz PCB Trace Surface Mount"/>
+      <property name="Reference_1" value="IC"/>
+      <property name="Value_1" value="ESP32-C6-WROOM-1-N8"/>
+      <property name="Footprint_1" value="ESP32C6WROOM1N8"/>
+      <property name="Datasheet_1" value="https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf"/>
+      <property name="Height" value="3.25"/>
+      <property name="Manufacturer_Name" value="Espressif Systems"/>
+      <property name="Manufacturer_Part_Number" value="ESP32-C6-WROOM-1-N8"/>
+      <property name="Mouser Part Number" value="356-ESP32C6WROOM1N8"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72bcc29f-9937-405b-a972-19556512629b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical_SMD</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec381abe-09f7-4de4-89ed-2e459531653a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JTAG</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adcbd417-4b1c-4d73-a6c1-87d1a2422cd2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB-Tag</value>
+      <footprint>USB-Tag:USB-Tag_6pol</footprint>
+      <libsource lib="838-22-006-10-001101" part="USB-Tag" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efb88638-8f72-4708-b0b0-3f5b96db72ea</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a6309b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a63827</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5f62a9-583a-4d3a-8e81-809073963c72</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f3afd52-2bd7-46d7-b9b6-20226defabef</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608147f5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TSR_1-2433</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SprinklerBoardESP32V3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0ee5335-a4c6-4305-9675-3d08856b6728</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>3f83c820-2e6d-4f23-abc5-3241995c82a6</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C130724</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part #" value="C130724"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>a746482f-622e-4eed-a507-58704b33dfb0</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C130724</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part #" value="C130724"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>876fa3c9-7b09-4448-bf8b-5e4f193efbbf</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C130724</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part #" value="C130724"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>1918cd16-9f8c-4338-8293-f3243fada820</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C130724</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC Part #" value="C130724"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>498691a5-4028-486b-9504-f67d8de6593c</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D_TVS_Dual_AAC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC Part #">C32677</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Dual_AAC" description="Bidirectional dual transient-voltage-suppression diode, center on pin 3"/>
+      <property name="LCSC Part #" value="C32677"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>e0474b99-ea6e-49e2-b120-c929e78a222a</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C191023</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="LCSC Part #" value="C191023"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>f4b27638-b1a9-4a0d-968f-1d08f2e0beb2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>8660fa06-33ab-4e1c-b7fc-b15658eaeeea</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>ed36599e-8cfe-4210-a740-a5db74a1b903</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>18c9ba0b-250b-469b-9ba1-8abf59a48e4e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>12ac8990-e866-4926-8ef7-2fb790cf9cfc</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>632adb04-5de3-4e3e-b4c6-8898b273982f</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G3VM-62J1</value>
+      <footprint>J-SOP8_OMR</footprint>
+      <fields>
+        <field name="LCSC Part #">C726024</field>
+      </fields>
+      <libsource lib="G3VM-62J1" part="G3VM-62J1" description=""/>
+      <property name="LCSC Part #" value="C726024"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>90d6a5d3-dc4d-42e6-bba0-8a23bcdd1d0a</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>G3VM-62J1</value>
+      <footprint>J-SOP8_OMR</footprint>
+      <fields>
+        <field name="LCSC Part #">C726024</field>
+      </fields>
+      <libsource lib="G3VM-62J1" part="G3VM-62J1" description=""/>
+      <property name="LCSC Part #" value="C726024"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>b39b5775-2d1b-4dc3-9384-1481e5d84bf4</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25104"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>b8e4c042-3cfb-471f-8ae0-2202a4ec8cc5</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25104"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>54b5f0a8-c340-4bf3-9958-ffb74ef009ab</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25104"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>e9fa9900-b60b-4589-8fd0-7bd7e4bdf754</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25104</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC Part #" value="C25104"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>12e44a94-e834-43f9-abdc-f2f6bfc8c3c1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>6ee06923-7198-4b51-99a0-8a3ded1f5ed5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25077"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>dceda5cd-ce54-46cd-acab-fc4a542f794f</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25077</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C25077"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>0e831af4-8547-4d62-8581-016fdfc15830</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>0d19e67c-37b6-4dd8-88df-e2d94d9c51e7</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>c116bba7-f456-4bd5-a752-4148b42cc169</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>33878cd7-bd47-4e02-b2dc-cc5595195726</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>f04da2d8-94d7-46db-a1d9-91b2df098875</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>6145b95c-fdaa-4727-bf1f-421db769dc11</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>c0dcac30-36c4-470b-9711-9d0062d7b977</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>9fffd432-219c-4831-820b-5b910f7c48c0</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>bbf26a20-30f9-46c2-9f71-8d9d505f47d0</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>e14ec70a-056c-4cba-ac59-7292a5e5fe0d</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>4f2cf77f-e88e-4b12-b99c-3533253dd700</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>c139df1b-974b-4f15-93a6-488c6d8c6ffb</tstamps>
+    </comp>
+    <comp ref="T4">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>d308401e-eddb-43b5-8c9a-7b549da7c721</tstamps>
+    </comp>
+    <comp ref="T5">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>1173a009-b98d-4c07-bb14-f21a3849c2e0</tstamps>
+    </comp>
+    <comp ref="T6">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>e6c29c11-0c23-4b52-b1e1-52708c8aa5e7</tstamps>
+    </comp>
+    <comp ref="T7">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>a6b2d5ca-f60c-446e-bcab-341f3cce13cb</tstamps>
+    </comp>
+    <comp ref="T8">
+      <value>725996-2</value>
+      <footprint>725996:7259962</footprint>
+      <fields>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+      </fields>
+      <libsource lib="725996-2" part="725996-2" description="AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB"/>
+      <property name="Reference_1" value="U"/>
+      <property name="Value_1" value="725996-2"/>
+      <property name="Footprint_1" value="7259962"/>
+      <property name="Datasheet_1" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="725996-2"/>
+      <property name="Mouser Part Number" value="571-725996-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D"/>
+      <property name="Arrow Part Number" value="725996-2"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/725996-2/te-connectivity"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>d0678342-eedb-4b8a-8982-87b2de1c7a5f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX3485</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C18148</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3485" description="True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
+      <property name="LCSC Part #" value="C18148"/>
+      <property name="Sheetname" value="IO"/>
+      <property name="Sheetfile" value="IO.kicad_sch"/>
+      <sheetpath names="/IO/" tstamps="/5583639e-4df1-4455-bf22-e7bdb0462e42/"/>
+      <tstamps>55fe1c4b-a6f9-4355-b3cd-32fcde9c71ae</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="725996-2" part="725996-2">
+      <description>AMP - TE CONNECTIVITY - 725996-2 - TAB 2, 8X0, 5 FOR PCB</description>
+      <fields>
+        <field name="Value">725996-2</field>
+        <field name="Reference_1">U</field>
+        <field name="Value_1">725996-2</field>
+        <field name="Footprint_1">7259962</field>
+        <field name="Datasheet_1">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Catalog+Section%7F82159_PCB_TERMINALS_AND_DISCONNECTS%7F1207%7Fpdf%7FEnglish%7FENG_CS_82159_PCB_TERMINALS_AND_DISCONNECTS_1207.pdf%7F725996-2</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">725996-2</field>
+        <field name="Mouser Part Number">571-725996-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/725996-2?qs=qCxwlXJ4fnwSyI%252Bf7tGybA%3D%3D</field>
+        <field name="Arrow Part Number">725996-2</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/725996-2/te-connectivity</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="838-22-006-10-001101" part="USB-Tag">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-Tag</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="GPIO9" type="bidirectional"/>
+        <pin num="3" name="Chip_EN" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="D-" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS_Dual_AAC">
+      <description>Bidirectional dual transient-voltage-suppression diode, center on pin 3</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_Dual_AAC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="common" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-C6-WROOM-1-N8" part="ESP32-C6-WROOM-1-N8">
+      <description>802.15.4, Bluetooth, WiFi Bluetooth v5.0, Zigbee Transceiver Module 2.4GHz PCB Trace Surface Mount</description>
+      <fields>
+        <field name="Value">ESP32-C6-WROOM-1-N8</field>
+        <field name="Reference_1">IC</field>
+        <field name="Value_1">ESP32-C6-WROOM-1-N8</field>
+        <field name="Footprint_1">ESP32C6WROOM1N8</field>
+        <field name="Datasheet_1">https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf</field>
+        <field name="Height">3.25</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-C6-WROOM-1-N8</field>
+        <field name="Mouser Part Number">356-ESP32C6WROOM1N8</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C6-WROOM-1-N8?qs=8Wlm6%252BaMh8ST02Gmwp74cw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="IO4" type="passive"/>
+        <pin num="5" name="IO5" type="passive"/>
+        <pin num="6" name="IO6" type="passive"/>
+        <pin num="7" name="IO7" type="passive"/>
+        <pin num="8" name="IO0" type="passive"/>
+        <pin num="9" name="IO1" type="passive"/>
+        <pin num="10" name="IO8" type="passive"/>
+        <pin num="11" name="IO10" type="passive"/>
+        <pin num="12" name="IO11" type="passive"/>
+        <pin num="13" name="IO12" type="passive"/>
+        <pin num="14" name="IO13" type="passive"/>
+        <pin num="15" name="IO9" type="passive"/>
+        <pin num="16" name="IO18" type="passive"/>
+        <pin num="17" name="IO19" type="passive"/>
+        <pin num="18" name="IO20" type="passive"/>
+        <pin num="19" name="IO21" type="passive"/>
+        <pin num="20" name="IO22" type="passive"/>
+        <pin num="21" name="IO23" type="passive"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="IO15" type="passive"/>
+        <pin num="24" name="RXD0" type="passive"/>
+        <pin num="25" name="TXD0" type="passive"/>
+        <pin num="26" name="IO3" type="passive"/>
+        <pin num="27" name="IO2" type="passive"/>
+        <pin num="28" name="GND_2" type="passive"/>
+        <pin num="29" name="GND_3" type="passive"/>
+        <pin num="30" name="GND_4" type="passive"/>
+        <pin num="31" name="GND_5" type="passive"/>
+        <pin num="32" name="GND_6" type="passive"/>
+        <pin num="33" name="GND_7" type="passive"/>
+        <pin num="34" name="GND_8" type="passive"/>
+        <pin num="35" name="GND_9" type="passive"/>
+        <pin num="36" name="GND_10" type="passive"/>
+        <pin num="37" name="GND_11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="G3VM-62J1" part="G3VM-62J1">
+      <footprints>
+        <fp>J-SOP8_OMR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G3VM-62J1</field>
+        <field name="Footprint">J-SOP8_OMR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX3485">
+      <description>True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3485</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MB10S" part="MB10S">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MB10S</field>
+        <field name="Footprint">SOIC245P670X290-4N</field>
+        <field name="MF">ON Semiconductor</field>
+        <field name="DESCRIPTION">MB10S Series 0.5 A 1000 V Low Leakage SMT Bridge Rectifier - SOIC-4</field>
+        <field name="PACKAGE">SOIC-4 ON Semiconductor</field>
+        <field name="MP">MB10S</field>
+        <field name="PRICE">None</field>
+        <field name="AVAILABILITY">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TSR_1-2450">
+      <description>1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement</description>
+      <docs>http://www.tracopower.com/products/tsr1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TSR?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSR_1-2450</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet">http://www.tracopower.com/products/tsr1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sprinkler_Vers_2.5_routed-eagle-import" part="SMAJ36CA-13-F">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAJ36CA-13-F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="725996-2">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/TE-Connect/725996/725996-2.kicad_sym</uri>
+    </library>
+    <library logical="838-22-006-10-001101">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/MillMaxTagConn/SixPinTH/838-22-006-10-001101.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-C6-WROOM-1-N8">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/ESP32-C6/ESP32-C6-WROOM-1-N8.kicad_sym</uri>
+    </library>
+    <library logical="G3VM-62J1">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/OmronRelay/G3VM-62J1.kicad_sym</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_UART.kicad_sym</uri>
+    </library>
+    <library logical="MB10S">
+      <uri>C:/Users/Johannes/Google Drive/Kicadlibraries/libs/MB10S/MB10S.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sprinkler_Vers_2.5_routed-eagle-import">
+      <uri>C:/Users/Johannes/Desktop/Sprinkler/test/Sprinkler_Vers_2.5_routed-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="3V3" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="3V3" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="Chip_EN">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Chip_EN" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="D9" pin="3" pinfunction="common" pintype="input"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="IC1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="28" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="29" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="30" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC1" pin="31" pinfunction="GND_5" pintype="passive"/>
+      <node ref="IC1" pin="32" pinfunction="GND_6" pintype="passive"/>
+      <node ref="IC1" pin="33" pinfunction="GND_7" pintype="passive"/>
+      <node ref="IC1" pin="34" pinfunction="GND_8" pintype="passive"/>
+      <node ref="IC1" pin="35" pinfunction="GND_9" pintype="passive"/>
+      <node ref="IC1" pin="36" pinfunction="GND_10" pintype="passive"/>
+      <node ref="IC1" pin="37" pinfunction="GND_11" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="GPIO0">
+      <node ref="IC1" pin="8" pinfunction="IO0" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="GPIO1">
+      <node ref="IC1" pin="9" pinfunction="IO1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="6" name="GPIO2">
+      <node ref="IC1" pin="27" pinfunction="IO2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="7" name="GPIO3">
+      <node ref="IC1" pin="26" pinfunction="IO3" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="8" name="GPIO8">
+      <node ref="IC1" pin="10" pinfunction="IO8" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="9" name="GPIO9">
+      <node ref="IC1" pin="15" pinfunction="IO9" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="GPIO10">
+      <node ref="IC1" pin="11" pinfunction="IO10" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="11" name="GPIO11">
+      <node ref="IC1" pin="12" pinfunction="IO11" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="12" name="GPIO15">
+      <node ref="IC1" pin="23" pinfunction="IO15" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="13" name="GPIO18">
+      <node ref="IC1" pin="16" pinfunction="IO18" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="GPIO19">
+      <node ref="IC1" pin="17" pinfunction="IO19" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="GPIO20">
+      <node ref="IC1" pin="18" pinfunction="IO20" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="GPIO21">
+      <node ref="IC1" pin="19" pinfunction="IO21" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="GPIO23">
+      <node ref="IC1" pin="21" pinfunction="IO23" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="18" name="LEDPOW">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(K2-Pad1)">
+      <node ref="K2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="RS485 A">
+      <node ref="D9" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="RS485 B">
+      <node ref="D9" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Relay1">
+      <node ref="K1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Relay2">
+      <node ref="K1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Relay3">
+      <node ref="K2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Relay4">
+      <node ref="K2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="T4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="RxD">
+      <node ref="IC1" pin="24" pinfunction="RXD0" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="42" name="SCL">
+      <node ref="IC1" pin="7" pinfunction="IO7" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="SDA">
+      <node ref="IC1" pin="6" pinfunction="IO6" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="TDi">
+      <node ref="IC1" pin="5" pinfunction="IO5" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="45" name="TMS">
+      <node ref="IC1" pin="4" pinfunction="IO4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="46" name="TxD">
+      <node ref="IC1" pin="25" pinfunction="TXD0" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="47" name="USB DN">
+      <node ref="IC1" pin="13" pinfunction="IO12" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="USB DP">
+      <node ref="IC1" pin="14" pinfunction="IO13" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="VCC">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="T5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="VIN_34V">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="VPP">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="K1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="K1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="K2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="K2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="52" name="moisture">
+      <node ref="IC1" pin="20" pinfunction="IO22" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(IC1-Pad22)">
+      <node ref="IC1" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
