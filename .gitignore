@@ -3,3 +3,5 @@
 *.url
 *-back
 *cache*
+*build/
+*managed_components/
