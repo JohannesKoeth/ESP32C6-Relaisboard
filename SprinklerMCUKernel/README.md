@@ -1,1 +1,1 @@
-# ESP32 relais card controll program
+# ESP32 relais board controll program
