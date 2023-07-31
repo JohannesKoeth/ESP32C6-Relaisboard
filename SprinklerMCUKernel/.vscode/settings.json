@@ -17,6 +17,7 @@
     "idf.flashType": "UART",
     "files.associations": {
         "esp_lvgl_port.h": "c",
-        "timeouttimer.h": "c"
+        "timeouttimer.h": "c",
+        "gpio.h": "c"
     }
 }

@@ -63,4 +63,7 @@ static const char *TAG = "SprinklerMCU";
 #define TIMEOUT 1000*60*90 // 90 minutes
 #define GPIO_TO_BE_SWITCHED 18
 
+// New line increment
+#define LINEINC 14
+
 #endif // DEFINES_H

@@ -58,6 +58,6 @@ void timer_status()
     // Print the remaining time in minutes and seconds
    // printf("Timer expired! Remaining Time: %lu minutes and %lu seconds\n", remaining_time.minutes, remaining_time.seconds);
     char* msg[100];
-    sprintf(msg, "timeout in: %u:%u", remaining_time.minutes, remaining_time.seconds);
+    sprintf(msg, "timeout in: %u:%02u", remaining_time.minutes, remaining_time.seconds);
     print_text(msg, 0, 64-16);
 }
