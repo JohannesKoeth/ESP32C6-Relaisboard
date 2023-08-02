@@ -3,7 +3,10 @@
 #include "freertos/timers.h"
 #include "timeouttimer.h"
 #include "esp_timer.h"
+#include "esp_log.h"
 #include "driver/gpio.h"
+
+#define DISPLAYATTACHED 1
 
 struct TimerInfo {
     int8_t minutes;
@@ -39,7 +42,7 @@ void start_timer() {
     }
 
     // Optionally, print a message to indicate the timer has started
-    printf("Timer started. GPIO will be switched low after %lu ms.\n", timer_period_ms);
+    ESP_LOGI(TAG, "Timer started. GPIO will be switched low after %lu ms.\n", timer_period_ms);
     print_text("Timer started", 0, 64-16);
 }
 
