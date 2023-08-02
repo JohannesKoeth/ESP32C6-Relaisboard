@@ -21,7 +21,8 @@
 
 // GPIO pins with relais
 
-// int relais[4] = {18, 19, 21, 22};
+static int relais[4] = {18, 19, 21, 22};
+static char *linesofdisplay[4][20];
 
 #define DISPLAYATTACHED 0
 
@@ -37,7 +38,7 @@ static bool notify_lvgl_flush_ready(esp_lcd_panel_io_handle_t panel_io, esp_lcd_
 // Subroutine to print text using LVGL
 void print_text(const char *text, int pos_x, int pos_y)
 {
-#if DISPLAYATTACHED    
+#if DISPLAYATTACHED
     lv_obj_t *label = lv_label_create(lv_scr_act());     // Create a new label
     lv_label_set_text(label, text);                      // Set the text of the label to the input string
     lv_obj_align(label, LV_ALIGN_DEFAULT, pos_x, pos_y); // Align the label to the center of the screen
@@ -47,9 +48,21 @@ void print_text(const char *text, int pos_x, int pos_y)
 #endif
 }
 
+// write a routine displaying the variable linesofdisplay on the display
+void showapge()
+{
+#if DISPLAYATTACHED
+    lv_obj_clean(lv_scr_act());
+#endif
+    for (int i = 0; i < 5; i++)
+    {
+        print_text(linesofdisplay[i], 0, i * LINEINC);
+    }
+}
+
 void set_gpio_state(int gpio_num, bool state)
 {
-    #define TAG "set_gpio_state"
+#define TAG "set_gpio_state"
     ESP_LOGI(TAG, "Switching Relais %d to %d", gpio_num, state);
     gpio_set_level(gpio_num, state);
 }
@@ -90,7 +103,6 @@ void parse_string(const char *input, int *num1, int *num2, int *num3)
     *num1 = atoi(third_last_slash + 1);
 }
 
-
 // An example of echo test with hardware flow control on UART
 static void echo_task(void *arg)
 {
@@ -115,7 +127,7 @@ static void echo_task(void *arg)
     ESP_ERROR_CHECK(uart_set_pin(uart_num, ECHO_TEST_TXD, ECHO_TEST_RXD, ECHO_TEST_RTS, UART_PIN_NO_CHANGE)); // Set UART pins as per KConfig settings
     ESP_ERROR_CHECK(uart_set_mode(uart_num, UART_MODE_RS485_HALF_DUPLEX));                                    // Set RS485 half duplex mode
     ESP_ERROR_CHECK(uart_set_rx_timeout(uart_num, ECHO_READ_TOUT));                                           // Set read timeout of UART TOUT feature
-    uint8_t *data = (uint8_t *)malloc(BUFFERSIZE);                                                              // Allocate buffers for UART
+    uint8_t *data = (uint8_t *)malloc(BUFFERSIZE);                                                            // Allocate buffers for UART
     ESP_LOGI(TAG, "UART start recieve loop.\r\n");
     echo_send(uart_num, "Start RS485 UART test.\r\n", 24);
 
@@ -161,7 +173,8 @@ static void echo_task(void *arg)
 
 void app_main(void)
 {
-#if DISPLAYATTACHED  
+    bool state = false;
+#if DISPLAYATTACHED
     ESP_LOGI(TAG, "Initialize I2C bus");
     i2c_config_t i2c_conf = {
         .mode = I2C_MODE_MASTER,
@@ -228,9 +241,9 @@ void app_main(void)
     print_text("Status overview", 0, 0);
     start_timer();
     uart_init();
-    // xTaskCreate(echo_task, "uart_echo_task", ECHO_TASK_STACK_SIZE, NULL, ECHO_TASK_PRIO, NULL);
-    #define SWPIN 19
-       // gpio_reset_pin(SWPIN);
+// xTaskCreate(echo_task, "uart_echo_task", ECHO_TASK_STACK_SIZE, NULL, ECHO_TASK_PRIO, NULL);
+#define SWPIN 19
+    // gpio_reset_pin(SWPIN);
     gpio_set_direction(SWPIN, GPIO_MODE_OUTPUT);
     // for(int i = 0; i < 50; i++) {
     //     set_gpio_state(SWPIN, 0);
@@ -240,12 +253,26 @@ void app_main(void)
     //     }
     vTaskDelay(1000 / portTICK_PERIOD_MS);
     xTaskCreate(uart_receive_task, "uart_receive_task", ECHO_TASK_STACK_SIZE, NULL, ECHO_TASK_PRIO, NULL);
+    int i = 0;
+    sprintf(linesofdisplay[0], "Valve 1: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[1], "Valve 1: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[2], "Valve 1: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[3], "Valve 1: %s", state ? "open" : "closed");
     while (1)
     {
         vTaskDelay(1000 / portTICK_PERIOD_MS);
 #if DISPLAYATTACHED
         lv_obj_clean(lv_scr_act());
 #endif
-        timer_status();
+        i++;
+        if (i == 4)
+        {
+            i = 0;
+            state = !state;
+        }
+        set_gpio_state(relais[i], state);
+        sprintf(linesofdisplay[i], "Valve %i: %s", i+1, state ? "open" : "closed");
+        timer_status(linesofdisplay[4]);
+        showapge();
     }
 }

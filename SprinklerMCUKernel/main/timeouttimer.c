@@ -46,7 +46,7 @@ void start_timer() {
     print_text("Timer started", 0, 64-16);
 }
 
-void timer_status()
+void timer_status(char* msg[])
 {
     // Read the elapsed time and period from the timer
     TickType_t period_ticks = xTimerGetPeriod(xTimer);
@@ -60,7 +60,9 @@ void timer_status()
 
     // Print the remaining time in minutes and seconds
    // printf("Timer expired! Remaining Time: %lu minutes and %lu seconds\n", remaining_time.minutes, remaining_time.seconds);
-    char* msg[100];
+    // char* msg[100];
     sprintf(msg, "timeout in: %u:%02u", remaining_time.minutes, remaining_time.seconds);
-    print_text(msg, 0, 64-16);
+    
+    //linesofdisplay[4] = msg;
+    // print_text(msg, 0, 64-16);
 }
