@@ -46,7 +46,7 @@ void start_timer() {
     print_text("Timer started", 0, 64-16);
 }
 
-void timer_status(char* msg[])
+void timer_status(char msg[])
 {
     // Read the elapsed time and period from the timer
     TickType_t period_ticks = xTimerGetPeriod(xTimer);

@@ -64,6 +64,6 @@ static const char *TAG = "SprinklerMCU";
 #define GPIO_TO_BE_SWITCHED 18
 
 // New line increment
-#define LINEINC 14
+#define LINEINC 12
 
 #endif // DEFINES_H

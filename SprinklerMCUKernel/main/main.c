@@ -21,10 +21,12 @@
 
 // GPIO pins with relais
 
-static int relais[4] = {18, 19, 21, 22};
-static char *linesofdisplay[4][20];
+#define LINESOFDISP 5
 
-#define DISPLAYATTACHED 0
+static int relais[4] = {18, 19, 21, 22};
+static char *linesofdisplay[LINESOFDISP][20];
+
+#define DISPLAYATTACHED 1
 
 #if DISPLAYATTACHED
 static bool notify_lvgl_flush_ready(esp_lcd_panel_io_handle_t panel_io, esp_lcd_panel_io_event_data_t *edata, void *user_ctx)
@@ -49,12 +51,12 @@ void print_text(const char *text, int pos_x, int pos_y)
 }
 
 // write a routine displaying the variable linesofdisplay on the display
-void showapge()
+void showpage()
 {
 #if DISPLAYATTACHED
-    lv_obj_clean(lv_scr_act());
+  //  lv_obj_clean(lv_scr_act());
 #endif
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < LINESOFDISP; i++)
     {
         print_text(linesofdisplay[i], 0, i * LINEINC);
     }
@@ -76,29 +78,20 @@ void parse_string(const char *input, int *num1, int *num2, int *num3)
         fprintf(stderr, "Invalid input format: No slashes found.\n");
         return;
     }
-
-    // Convert the third number after the last '/'
-    *num3 = atoi(last_slash + 1);
-
-    // Find the second last occurrence of '/'
-    const char *second_last_slash = strrchr(input, last_slash[-1]);
+    *num3 = atoi(last_slash + 1);    // Convert the third number after the last '/'
+    const char *second_last_slash = strrchr(input, last_slash[-1]);    // Find the second last occurrence of '/'
     if (second_last_slash == NULL)
     {
         fprintf(stderr, "Invalid input format: Less than three numbers found.\n");
         return;
     }
-
-    // Convert the second number after the second last '/'
-    *num2 = atoi(second_last_slash + 1);
-
-    // Find the third last occurrence of '/'
-    const char *third_last_slash = strrchr(input, second_last_slash[-1]);
+    *num2 = atoi(second_last_slash + 1);    // Convert the second number after the second last '/'
+    const char *third_last_slash = strrchr(input, second_last_slash[-1]);    // Find the third last occurrence of '/'
     if (third_last_slash == NULL)
     {
         fprintf(stderr, "Invalid input format: Less than three numbers found.\n");
         return;
     }
-
     // Convert the first number after the third last '/'
     *num1 = atoi(third_last_slash + 1);
 }
@@ -235,10 +228,7 @@ void app_main(void)
     /* Rotation of the screen */
     lv_disp_set_rotation(disp, LV_DISP_ROT_NONE);
 #endif
-
     ESP_LOGI(TAG, "Starting RS485 to display");
-
-    print_text("Status overview", 0, 0);
     start_timer();
     uart_init();
 // xTaskCreate(echo_task, "uart_echo_task", ECHO_TASK_STACK_SIZE, NULL, ECHO_TASK_PRIO, NULL);
@@ -255,9 +245,10 @@ void app_main(void)
     xTaskCreate(uart_receive_task, "uart_receive_task", ECHO_TASK_STACK_SIZE, NULL, ECHO_TASK_PRIO, NULL);
     int i = 0;
     sprintf(linesofdisplay[0], "Valve 1: %s", state ? "open" : "closed");
-    sprintf(linesofdisplay[1], "Valve 1: %s", state ? "open" : "closed");
-    sprintf(linesofdisplay[2], "Valve 1: %s", state ? "open" : "closed");
-    sprintf(linesofdisplay[3], "Valve 1: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[1], "Valve 2: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[2], "Valve 3: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[3], "Valve 4: %s", state ? "open" : "closed");
+    sprintf(linesofdisplay[4], "Statusline");
     while (1)
     {
         vTaskDelay(1000 / portTICK_PERIOD_MS);
@@ -265,7 +256,7 @@ void app_main(void)
         lv_obj_clean(lv_scr_act());
 #endif
         i++;
-        if (i == 4)
+        if (i == LINESOFDISP)
         {
             i = 0;
             state = !state;
@@ -273,6 +264,6 @@ void app_main(void)
         set_gpio_state(relais[i], state);
         sprintf(linesofdisplay[i], "Valve %i: %s", i+1, state ? "open" : "closed");
         timer_status(linesofdisplay[4]);
-        showapge();
+        showpage();
     }
 }
